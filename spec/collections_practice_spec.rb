@@ -63,7 +63,7 @@ describe 'collections practice' do
   # Question 9
   describe '#add_s' do
     it 'Add an "s" to each word in the array except for the 2nd element in the array' do
-      expect(add_s(["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"])
+      expect(add_s(["hand", "feet", "knee", "table"])).to eq(["hands", "feet", "knees", "tables"])
     end
   end
 end
